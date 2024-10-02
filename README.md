@@ -91,6 +91,25 @@ Rozszerz klasę `Car`, dodając metodę do obliczania wieku samochodu.
    3. Zaktualizuj metodę `main()`:
       Utwórz obiekt klasy `Car`.
       Wywołaj `getCarAge()` i wyświetl wiek samochodu.
+      
+## Zadanie 3: Porównywanie obiektów (sprawdzanie równości)
 
+### Zadanie C++ 
+### Cel:
+Dodaj funkcjonalność, która porównuje dwa obiekty `Car` i sprawdza, czy są takie same (na podstawie `make`, `model` oraz `year`).
+   1. Dodaj metodę:
+      `bool isSameCar(Car otherCar)`, która porównuje make, model i year dwóch obiektów klasy `Car` i zwraca `true`, jeśli są takie same, w przeciwnym razie `false`.
+   2. Zaktualizuj funkcję `main()`:
+      Utwórz dwa obiekty klasy `Car`.
+      Wywołaj metodę `isSameCar()` i sprawdź, czy dwa samochody są takie same, a następnie wyświetl wynik.
+      
+### Zadanie Java 
+### Cel:
+Dodaj funkcjonalność, która porównuje dwa obiekty `Car` i sprawdza, czy są takie same (na podstawie `make`, `model` oraz `year`).
+   1. Dodaj metodę:
+      `boolean isSameCar(Car otherCar)`, która porównuje `make`, `model` i `year` dwóch obiektów klasy `Car` i zwraca `true`, jeśli są takie same, w przeciwnym razie `false`.
+   2. Zaktualizuj metodę `main()`:
+      Utwórz dwa obiekty klasy `Car`.
+      Wywołaj metodę `isSameCar()` i sprawdź, czy dwa samochody są takie same, a następnie wyświetl wynik.
 
 
