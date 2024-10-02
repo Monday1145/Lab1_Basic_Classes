@@ -17,6 +17,8 @@ Pod koniec tego laboratorium będziesz w stanie:
 
 ## Instrukcje
 
+## Zadanie 1: 
+
 ### Część 1: Implementacja w C++
 
 1. **Skonfiguruj środowisko**:
@@ -63,6 +65,32 @@ Po ukończeniu zadań, zastanów się nad następującymi pytaniami:
   1. Dlaczego ważne jest używanie specyfikatorów dostępu private dla atrybutów?
   2. Co się stanie, jeśli zmienisz specyfikator dostępu atrybutów na public? Spróbuj to zrobić i zaobserwuj zmiany.
   3. Czy możesz utworzyć wiele obiektów klasy Car? Jeśli tak, jak każdy obiekt przechowuje swoje własne atrybuty?
+
+## Zadanie 2: Dodanie metod i obliczanie atrybutów
+
+### Zadanie C++ 
+### Cel:
+Rozszerz klasę `Car`, dodając nowe atrybuty oraz metodę do obliczania wieku samochodu.
+
+   1. Zmodyfikuj klasę `Car`, dodając:
+      Atrybut `int currentYear` reprezentujący obecny rok.
+   2. Dodaj metodę:
+      `int getCarAge()`, która oblicza i zwraca wiek samochodu na podstawie różnicy między `currentYear` a rokiem produkcji samochodu (`year`).
+   3. Zaktualizuj funkcję `main()`:
+      Utwórz obiekt klasy `Car`.
+      Wywołaj `getCarAge()` i wyświetl wiek samochodu.
+      
+### Zadanie Java 
+### Cel:
+Rozszerz klasę `Car`, dodając metodę do obliczania wieku samochodu.
+
+   1. Zmodyfikuj klasę `Car`, dodając:
+      Atrybut `int currentYear` reprezentujący obecny rok.
+   2. Dodaj metodę:
+      `int getCarAge()`, która oblicza i zwraca wiek samochodu na podstawie różnicy między `currentYear` a rokiem produkcji samochodu (`year`).
+   3. Zaktualizuj metodę `main()`:
+      Utwórz obiekt klasy `Car`.
+      Wywołaj `getCarAge()` i wyświetl wiek samochodu.
 
 
 
