@@ -111,5 +111,14 @@ Dodaj funkcjonalność, która porównuje dwa obiekty `Car` i sprawdza, czy są 
    2. Zaktualizuj metodę `main()`:
       Utwórz dwa obiekty klasy `Car`.
       Wywołaj metodę `isSameCar()` i sprawdź, czy dwa samochody są takie same, a następnie wyświetl wynik.
+      
+## Zadanie 4:
+
+Wykonaj zadanie krok po kroku w C++ i Javie (utwórz dwa nowe pliki dla tego zadania):
+   1. Zbuduj klasę `Parrot`, która potrafi wypowiadać frazę, która jest predefiniowana w opisie klasy (metoda `say`).
+   2. Zmodyfikuj klasę z zadania `1.` tak, aby fraza była ustawiana podczas tworzenia konkretnej instancji.
+   3. Zmodyfikuj klasę z zadania `2.` tak, aby fraza mogła być zmieniana podczas działania programu.
+   4. Zmodyfikuj klasę z zadania `3.` tak, aby można było określić liczbę powtórzeń podczas wywoływania metody say.
+   5. Zmodyfikuj klasę z zadania `4.` tak, aby można było dodawać frazy do zbioru fraz, które zna papuga. Gdy wywoływana jest metoda `say`, papuga wypowiada losową frazę ze swojego zbioru.
 
 
