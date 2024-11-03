@@ -1,6 +1,6 @@
 // include the necessary libraries
 
-class Car {
+class Car {       // brak rozwiazania!
     //attributes
 
     // Constructor
